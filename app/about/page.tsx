@@ -1,12 +1,8 @@
-import React from 'react';
+import React from 'react'
+import styles from './style.module.css'
 
-const About = () => {
+export default function About() {
     return (
-        <div>
-            <h4>This is about page.
-            </h4>
-        </div>
-    );
-};
-
-export default About;
+        <div className={styles.main}>About</div>
+    )
+}
