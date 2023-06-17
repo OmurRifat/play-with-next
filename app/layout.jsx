@@ -1,9 +1,7 @@
 import './globals.css'
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
+  children
 }) {
   return (
     <html lang="en">
@@ -14,7 +12,7 @@ export default function RootLayout({
       <head />
       <body>
         <nav>This is Navigation</nav>
-        {children}
+        { children }
       </body>
     </html>
   )
